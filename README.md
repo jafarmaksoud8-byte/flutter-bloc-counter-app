@@ -1,17 +1,51 @@
-# counter_app
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jafarmaksoud8-byte/flutter-bloc-counter-app/main/assets/images/counter_bloc_demo.gif" width="300" alt="Counter BLoC App Demo">
+</p>
 
-A new Flutter project.
+# 🚀 Flutter BLoC Counter App
 
-## Getting Started
+A clean, production-ready Counter application built using **Flutter BLoC**, focusing on robust architecture, predictable state management, and separation of concerns.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* **BLoC State Management:** Implements the BLoC pattern using `flutter_bloc` for clear separation between business logic and UI.
+* **Interactive Actions:** Supports increment, decrement, and reset states seamlessly.
+* **Modular Architecture:** Cleanly organized folder structure separating views, widgets, states, events, and constants.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack & Packages
+
+* **Flutter & Dart**
+* **flutter_bloc:** For state management implementation.
+* **bloc:** Core state management library.
+
+---
+
+## 📂 Project Architecture
+
+```text
+lib/
+│
+├── bloc/
+│   ├── counter_bloc.dart
+│   ├── counter_event.dart
+│   └── counter_state.dart
+│
+├── constant/
+│   └── apppp_color.dart
+│
+├── ui/
+│   ├── views/
+│   │   └── home_view.dart
+│   └── widgets/
+│       ├── button_widget.dart
+│       └── text_widget.dart
+│
+└── main.dart
+
+👨‍💻 Author
+Name: Jafar Maksoud
+Email: jafarmaksoud8@gmail.com
